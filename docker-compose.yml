@@ -35,7 +35,7 @@ services:
       pgvector:
         condition: service_healthy
     environment:
-      - DEBUG=${DEBUG:-false}
+      - DEBUG=${PENTAGI_DEBUG:-false}
       - DOCKER_GID=998
       - CORS_ORIGINS=${CORS_ORIGINS:-}
       - COOKIE_SIGNING_SALT=${COOKIE_SIGNING_SALT:-}

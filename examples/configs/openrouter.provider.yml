@@ -80,14 +80,12 @@ reflector:
     output: 1.6
 
 searcher:
-  model: "x-ai/grok-3-mini"
+  model: "openai/gpt-4.1-mini"
   n: 1
   max_tokens: 4000
-  reasoning:
-    max_tokens: 1024
   price:
-    input: 0.3
-    output: 0.5
+    input: 0.4
+    output: 1.6
 
 enricher:
   model: "openai/gpt-4.1-mini"
